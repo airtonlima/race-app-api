@@ -1,0 +1,37 @@
+{
+	"name": "celldowntime-api",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"start": "nodemon server.js",
+		"debug": "DEBUG=api nodemon --inspect server.js",
+		"test": "jest --verbose=true --coverage",
+		"secure-mode": "jest --watchAll --verbose=true --runInBand"
+	},
+	"keywords": [],
+	"author": "Equipe Digitalização N1",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"compression": "^1.7.4",
+		"consign": "^0.1.6",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"excel4node": "^1.7.2",
+		"express": "^4.17.1",
+		"jwt-simple": "^0.5.6",
+		"moment": "^2.29.1",
+		"mongodb": "^3.6.10",
+		"mssql": "^6.2.0",
+		"node-fetch": "^2.6.1",
+		"oracledb": "^5.0.0",
+		"passport": "^0.4.1",
+		"passport-jwt": "^4.0.0"
+	},
+	"devDependencies": {
+		"jest": "^26.1.0",
+		"nodemon": "^2.0.4",
+		"supertest": "^4.0.2"
+	}
+}
