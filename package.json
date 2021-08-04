@@ -1,10 +1,10 @@
 {
-	"name": "celldowntime-api",
+	"name": "raceapp-api",
 	"version": "1.0.0",
 	"description": "",
 	"main": "server.js",
 	"scripts": {
-		"start": "nodemon server.js",
+		"start": "node server.js",
 		"debug": "DEBUG=api nodemon --inspect server.js",
 		"test": "jest --verbose=true --coverage",
 		"secure-mode": "jest --watchAll --verbose=true --runInBand"
